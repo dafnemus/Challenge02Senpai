@@ -17,8 +17,14 @@
   border: none;
   padding: 5px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .mode button:hover {
   box-shadow: 1px 1px 1px 1px rgb(209, 206, 206);
+}
+
+.title {
+  color: var(--Very-Light-Gray);
+  font-weight: bold;
 }
