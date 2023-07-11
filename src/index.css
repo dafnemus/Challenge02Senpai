@@ -2,7 +2,7 @@
 :root {
   font-family: "Space Grotesk", sans-serif;
   --bright-blue: #3a7bfd;
-  --Check-Background: linear-gradient(#57ddff, #c058f3);
+  --Check-Background: linear-gradient(to right, #57ddff, #c058f3);
   --Very-Light-Gray: #fafafa;
   --Very-Light-Grayish-Blue: #e4e5f1;
   --Light-Grayish-Blue: #d2d3db;
@@ -13,7 +13,7 @@
   --Light-Grayish-Blue: #cacde8;
   --Light-Grayish-Blue-hover: #e4e5f1;
   --Dark-Grayish-Blue: #777a92;
-  --Very-Dark-Grayish-Blue: #4d5066;
+  --Very-Dark-Grayish-Blue-2: #4d5066;
   --Very-Dark-Grayish-Blue-hover: #393a4c;
 }
 

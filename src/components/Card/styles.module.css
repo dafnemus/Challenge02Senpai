@@ -1,0 +1,54 @@
+.cardContainer,
+.cardDark {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 15px;
+  border: solid var(--Very-Light-Grayish-Blue);
+  justify-content: space-between;
+  border-width: 1px 0px 1px 0px;
+  background-color: var(--Very-Light-Gray);
+}
+
+.cardDark {
+  background-color: var(--Very-Dark-Desaturated-Blue);
+  border-color: var(--Very-Dark-Grayish-Blue);
+}
+
+.cardContainer p {
+  text-align: start;
+  color: var(--Very-Dark-Desaturated-Blue);
+  font-size: 13px;
+}
+
+.cardDark p {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.check {
+  background-color: transparent;
+  border: 2px solid var(--Very-Light-Grayish-Blue);
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+
+.cardDark .check {
+  border-color: var(--Very-Dark-Grayish-Blue);
+}
+
+.check:hover {
+  background-image: var(--Check-Background);
+}
+
+.cross {
+  padding: 1px;
+  border: none;
+  background-color: transparent;
+}
+
+.auxContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
